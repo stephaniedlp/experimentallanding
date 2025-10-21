@@ -280,22 +280,24 @@ body {
     }
     .container {
         height: 100vh;
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     
     .glass-container {
         height: 100vh;
-           align-content: center;
+        display: flex;
+        border-radius: 100rem;
+        align-content: center;
+        align-items: center;
     }
     
     .logo {
-        width: clamp(200px, 80vw, 400px);
-        margin-bottom: 25px;
+        max-height: 4rem;
+        width: clamp(200px, 90vw, 400px);
     }
     
     .subtitle {
-        margin-bottom: 35px;
         font-weight: 200;
         font-size: 0.8rem;
         letter-spacing: 0.3em;
