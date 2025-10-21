@@ -1,0 +1,151 @@
+/* ===================================
+   FUENTES PERSONALIZADAS
+   =================================== */
+
+/* Encode Sans Expanded - Para contenido general */
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Expanded';
+    src: url('./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Goldman - Para títulos y subtítulos */
+@font-face {
+    font-family: 'Goldman';
+    src: url('./fonts/Goldman/Goldman-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Goldman';
+    src: url('./fonts/Goldman/Goldman-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===================================
+   APLICACIÓN DE FUENTES
+   =================================== */
+
+/* Encode Sans Expanded para todo el contenido general */
+* {
+    font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-weight: 400;
+}
+
+/* Goldman para títulos y subtítulos */
+h1, h2, h3, h4, h5, h6,
+.title,
+.heading {
+    font-family: 'Goldman', 'Encode Sans Expanded', sans-serif;
+    font-weight: 700;
+}
+
+/* Estilos específicos para cada nivel de título */
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4, h5, h6 {
+    font-weight: 400;
+}
+
+/* Clases de utilidad opcionales */
+.font-encode {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.font-goldman {
+    font-family: 'Goldman', sans-serif;
+}
+
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }

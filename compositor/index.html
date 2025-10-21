@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compositor - Melolalia</title>
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="compositor.css">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div id="particles"></div>
+    </div>
+
+    <div class="editor-container">
+        <div class="header">
+            <div class="logo">espacio libre con partrones visuales, o no?</div>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <div class="auto-save-indicator">
+                    <div class="save-dot"></div>
+                    <span>Auto-guardado</span>
+                </div>
+                <a href="../" class="back-button">← Volver</a>
+            </div>
+        </div>
+
+        <div class="editor-wrapper">
+            <div class="editor-panel">
+                <div class="editor-title">tu espacio libre</div>
+                <textarea 
+                    id="editor" 
+                    class="editor-input" 
+                    placeholder="Comienza a escribir... Todo se guardará automáticamente."
+                    spellcheck="false"
+                ></textarea>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span>📝</span>
+                        <span id="charCount">0</span> caracteres
+                    </div>
+                    <div class="stat-item">
+                        <span>📄</span>
+                        <span id="wordCount">0</span> palabras
+                    </div>
+                    <div class="stat-item">
+                        <span>⏱️</span>
+                        <span id="lineCount">0</span> líneas
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="compositor.js"></script>
+</body>
+</html>
