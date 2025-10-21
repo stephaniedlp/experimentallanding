@@ -1,6 +1,6 @@
-# Melolalia - Proyecto Web
+# Melolalia - Landing Page Productor 
 
-## 📁 Estructura de Archivos
+## 📁 Arquitecture 
 
 ```
 /
@@ -19,28 +19,8 @@
 2. **Haz clic en "Compositor"** o navega a `compositor/index.html` para acceder al editor
 
 ## ✨ Características
+<img width="1721" height="1201" alt="image" src="https://github.com/user-attachments/assets/2ab0280f-d002-4b0f-9523-6806bada0cb1" />
 
-### Landing Page (index.html)
-- ✅ Diseño full viewport
-- ✅ Efecto glassmorphism/bubble iOS-style
-- ✅ Letras "melolalia" con bordes y efecto futurista
-- ✅ Burbujas flotantes animadas
-- ✅ Gradiente animado de fondo
-- ✅ Orbes con blur que flotan
-- ✅ Efecto parallax con el mouse
-- ✅ Responsive design
-- ✅ **CSS y JS separados**
-
-### Compositor (compositor/index.html)
-- ✅ Editor de texto con persistencia (localStorage)
-- ✅ Auto-guardado cada 500ms
-- ✅ Fondo animado con gradientes
-- ✅ Partículas flotantes
-- ✅ Contador de caracteres, palabras y líneas
-- ✅ Soporte para Tab (4 espacios)
-- ✅ Atajo Ctrl/Cmd + S para guardar manualmente
-- ✅ Todo el texto se guarda automáticamente en el navegador
-- ✅ **CSS y JS separados**
 
 ## 🎨 Tecnologías
 
