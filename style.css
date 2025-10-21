@@ -275,12 +275,18 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .blur-background{
+        display: block;
+    }
     .container {
-        padding: 20px;
+        height: 100vh;
+    display: flex;
+    justify-content: center;
     }
     
     .glass-container {
-        padding: 50px 30px;
+        height: 100vh;
+           align-content: center;
     }
     
     .logo {
@@ -297,5 +303,10 @@ body {
     
     .blur-sphere {
         filter: blur(40px) !important;
+    }
+    .button{
+        width: fit-content;
+        letter-spacing: 2em;
+        font-size: 0.75rem;
     }
 }
