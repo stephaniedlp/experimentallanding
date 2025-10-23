@@ -27,7 +27,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: var(--bg-light);
+    background: var(--bg-dark);
     position: relative;
     /* font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
 }
@@ -62,6 +62,7 @@ body {
     height: 600px;
     background: radial-gradient(ellipse at center, 
         var(--color-accent) 0%,
+        var(--color-primary) 20%,
         var(--color-primary) 40%,
         transparent 70%
     );
@@ -153,11 +154,9 @@ body {
     backdrop-filter: blur(40px) saturate(140%);
     -webkit-backdrop-filter: blur(40px) saturate(180%);
     border-radius: 100rem;
-  
     padding: 80px 100px;
-    box-shadow: 
-        0 8px 32px 0 rgba(0, 0, 0, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 10px 32px 0 rgb(100 100 100 / 30%), inset 3px 1px 0px rgb(55 55 55 / 0%);
+ 
     text-align: center;
     position: relative;
     transition: transform 0.3s ease;
@@ -182,7 +181,7 @@ body {
     width: clamp(300px, 70vw, 800px);
     max-height: 7rem;
     padding: 1rem;
-    filter: drop-shadow(0 0 30px rgba(100, 220, 255, 0.5))
+    filter: drop-shadow(0 0 40px rgba(100, 136, 255, 0.5))
             drop-shadow(0 0 60px rgba(150, 100, 255, 0.3));
     /* animation: logoGlow 4s ease-in-out infinite, logoFloat 3s ease-in-out infinite;
     transition: transform 0.3s ease; */
