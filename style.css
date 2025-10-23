@@ -150,7 +150,7 @@ body {
 /* Contenedor Glassmorphism */
 .glass-container {
     background: var(--glass-bg);
-    backdrop-filter: blur(40px) saturate(180%);
+    backdrop-filter: blur(40px) saturate(140%);
     -webkit-backdrop-filter: blur(40px) saturate(180%);
     border-radius: 100rem;
   
@@ -170,12 +170,6 @@ body {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.4),
-        transparent
-    );
 }
 
 .content {
@@ -232,15 +226,15 @@ body {
 .button {
     display: inline-block;
     padding: 16px 45px;
-    background: rgb(130 144 148 / 10%);
+    background: rgb(103 187 211 / 10%);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 50px;
     color: var(--bg-dark);
     text-decoration: none;
     text-transform: uppercase;
-       font-weight: 500;
-    letter-spacing: 4em;
+    font-weight: 500;
+    letter-spacing: 0.7em;
     font-size: 0.75rem;
     transition: all 0.4s ease;
     position: relative;
